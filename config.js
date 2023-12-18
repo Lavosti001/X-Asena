@@ -13,7 +13,7 @@ module.exports = {
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
   LOGS: toBool(process.env.LOGS) || true,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
-  SESSION_ID: process.env.SESSION_ID || "idvu3oj6_XASENA_w46_XASENA_nb8c",
+  SESSION_ID: process.env.SESSION_ID || "",
   LANG: process.env.LANG || "EN",
   HANDLERS:
     process.env.HANDLER === "false" || process.env.HANDLER === "null"
@@ -29,7 +29,7 @@ module.exports = {
   SUDO: process.env.SUDO || "918113921898,0",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
-  OWNER_NAME: process.env.OWNER_NAME || "Neeraj-X0",
+  OWNER_NAME: process.env.OWNER_NAME || "LA VOSTI",
   BOT_NAME: process.env.BOT_NAME || "X-asena",
   WORK_TYPE: process.env.WORK_TYPE || "public",
   DATABASE_URL: DATABASE_URL,
